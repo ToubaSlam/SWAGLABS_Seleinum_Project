@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=".org.eclipse.egit.core.cmp(failed)">
+    <classes>
+      <class name="TestCases.TC01_Login">
+        <methods>
+          <include name="quit"/>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="defineSuiteElements"/>
+          <include name="generateUserId"/>
+          <include name="loginWithValidCredential"/>
+        </methods>
+      </class> <!-- TestCases.TC01_Login -->
+    </classes>
+  </test> <!-- .org.eclipse.egit.core.cmp(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

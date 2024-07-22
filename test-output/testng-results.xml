@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-23T00:15:50 EEST" name="SWAGLABS" finished-at="2024-07-23T00:16:17 EEST" duration-ms="26717">
+    <groups>
+    </groups>
+    <test started-at="2024-07-23T00:15:50 EEST" name="RemoveRandomProducts" finished-at="2024-07-23T00:16:17 EEST" duration-ms="26717">
+      <class name="TestCases.TC02_AddAndRemoveRandomProducts">
+        <test-method signature="AddRandomProducts()[pri:1, instance:TestCases.TC02_AddAndRemoveRandomProducts@2c16fadb]" started-at="2024-07-23T00:15:59 EEST" name="AddRandomProducts" description="Add Random Products To Cart" finished-at="2024-07-23T00:16:09 EEST" duration-ms="9661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddRandomProducts -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC02_AddAndRemoveRandomProducts@2c16fadb]" started-at="2024-07-23T00:16:09 EEST" name="getResult" finished-at="2024-07-23T00:16:09 EEST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddRandomProducts status=SUCCESS method=TC02_AddAndRemoveRandomProducts.AddRandomProducts()[pri:1, instance:TestCases.TC02_AddAndRemoveRandomProducts@2c16fadb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="RemoveRandomProducts()[pri:2, instance:TestCases.TC02_AddAndRemoveRandomProducts@2c16fadb]" started-at="2024-07-23T00:16:09 EEST" name="RemoveRandomProducts" description="Remove Random Products To Cart" finished-at="2024-07-23T00:16:11 EEST" duration-ms="1816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveRandomProducts -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC02_AddAndRemoveRandomProducts@2c16fadb]" started-at="2024-07-23T00:16:11 EEST" name="getResult" finished-at="2024-07-23T00:16:11 EEST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RemoveRandomProducts status=SUCCESS method=TC02_AddAndRemoveRandomProducts.RemoveRandomProducts()[pri:2, instance:TestCases.TC02_AddAndRemoveRandomProducts@2c16fadb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ClickCartButton()[pri:3, instance:TestCases.TC02_AddAndRemoveRandomProducts@2c16fadb]" started-at="2024-07-23T00:16:11 EEST" name="ClickCartButton" description="Click on Cart Button" finished-at="2024-07-23T00:16:13 EEST" duration-ms="2052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCartButton -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC02_AddAndRemoveRandomProducts@2c16fadb]" started-at="2024-07-23T00:16:13 EEST" name="getResult" finished-at="2024-07-23T00:16:13 EEST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickCartButton status=SUCCESS method=TC02_AddAndRemoveRandomProducts.ClickCartButton()[pri:3, instance:TestCases.TC02_AddAndRemoveRandomProducts@2c16fadb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- TestCases.TC02_AddAndRemoveRandomProducts -->
+      <class name="TestCases.TC03_Checkout">
+        <test-method signature="ClickCheckoutButton()[pri:1, instance:TestCases.TC03_Checkout@248deced]" started-at="2024-07-23T00:16:13 EEST" name="ClickCheckoutButton" description="Click On Checkout" finished-at="2024-07-23T00:16:14 EEST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCheckoutButton -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC03_Checkout@248deced]" started-at="2024-07-23T00:16:14 EEST" name="getResult" finished-at="2024-07-23T00:16:14 EEST" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickCheckoutButton status=SUCCESS method=TC03_Checkout.ClickCheckoutButton()[pri:1, instance:TestCases.TC03_Checkout@248deced] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- TestCases.TC03_Checkout -->
+      <class name="TestCases.TC04_FillCheckoutInformation">
+        <test-method signature="FillInformation()[pri:1, instance:TestCases.TC04_FillCheckoutInformation@7e7f3cfd]" started-at="2024-07-23T00:16:14 EEST" name="FillInformation" description="Fill Needed Information" finished-at="2024-07-23T00:16:15 EEST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillInformation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC04_FillCheckoutInformation@7e7f3cfd]" started-at="2024-07-23T00:16:15 EEST" name="getResult" finished-at="2024-07-23T00:16:15 EEST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FillInformation status=SUCCESS method=TC04_FillCheckoutInformation.FillInformation()[pri:1, instance:TestCases.TC04_FillCheckoutInformation@7e7f3cfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ClickContinuebtn()[pri:2, instance:TestCases.TC04_FillCheckoutInformation@7e7f3cfd]" started-at="2024-07-23T00:16:15 EEST" name="ClickContinuebtn" description="Click On Continue Shopping" finished-at="2024-07-23T00:16:15 EEST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickContinuebtn -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC04_FillCheckoutInformation@7e7f3cfd]" started-at="2024-07-23T00:16:15 EEST" name="getResult" finished-at="2024-07-23T00:16:15 EEST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickContinuebtn status=SUCCESS method=TC04_FillCheckoutInformation.ClickContinuebtn()[pri:2, instance:TestCases.TC04_FillCheckoutInformation@7e7f3cfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- TestCases.TC04_FillCheckoutInformation -->
+      <class name="TestCases.TC05_CheckoutOverview">
+        <test-method signature="CheckClickFinishbtn()[pri:1, instance:TestCases.TC05_CheckoutOverview@3ae126d1]" started-at="2024-07-23T00:16:15 EEST" name="CheckClickFinishbtn" description="Click On Checkout" finished-at="2024-07-23T00:16:17 EEST" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckClickFinishbtn -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC05_CheckoutOverview@3ae126d1]" started-at="2024-07-23T00:16:17 EEST" name="getResult" finished-at="2024-07-23T00:16:17 EEST" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckClickFinishbtn status=SUCCESS method=TC05_CheckoutOverview.CheckClickFinishbtn()[pri:1, instance:TestCases.TC05_CheckoutOverview@3ae126d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- TestCases.TC05_CheckoutOverview -->
+      <class name="TestCases.TC01_Login">
+        <test-method is-config="true" signature="defineSuiteElements()[pri:0, instance:TestCases.TC01_Login@6a10b263]" started-at="2024-07-23T00:15:50 EEST" name="defineSuiteElements" finished-at="2024-07-23T00:15:50 EEST" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuiteElements -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:TestCases.TC01_Login@6a10b263]" started-at="2024-07-23T00:15:51 EEST" name="setupDriver" finished-at="2024-07-23T00:15:54 EEST" duration-ms="3729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Login()[pri:1, instance:TestCases.TC01_Login@6a10b263]" started-at="2024-07-23T00:15:55 EEST" name="Login" description="login with valid credential" finished-at="2024-07-23T00:15:59 EEST" duration-ms="4073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC01_Login@6a10b263]" started-at="2024-07-23T00:15:59 EEST" name="getResult" finished-at="2024-07-23T00:15:59 EEST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=TC01_Login.Login()[pri:1, instance:TestCases.TC01_Login@6a10b263] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.TC01_Login@6a10b263]" started-at="2024-07-23T00:16:17 EEST" name="quit" finished-at="2024-07-23T00:16:17 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC01_Login@6a10b263]" started-at="2024-07-23T00:16:18 EEST" name="tearDown" finished-at="2024-07-23T00:16:22 EEST" duration-ms="4281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC01_Login -->
+    </test> <!-- RemoveRandomProducts -->
+  </suite> <!-- SWAGLABS -->
+</testng-results>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Guru99]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value=""/>
+  <test thread-count="5" name=" TC01 Verify Login Page Opened Successfully(failed)">
+    <classes>
+      <class name="TestCases.TC14_MiniStatement">
+        <methods>
+          <include name="quit"/>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+          <include name="getResult"/>
+          <include name="miniStatement"/>
+          <include name="defineSuiteElements"/>
+        </methods>
+      </class> <!-- TestCases.TC14_MiniStatement -->
+      <class name="TestCases.TC06_NewAccount">
+        <methods>
+          <include name="quit"/>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+          <include name="getFirstAccountDetails"/>
+          <include name="newAccount"/>
+          <include name="getResult"/>
+          <include name="defineSuiteElements"/>
+        </methods>
+      </class> <!-- TestCases.TC06_NewAccount -->
+      <class name="TestCases.TC02_AddAndRemoveRandomProducts">
+        <methods>
+          <include name="quit"/>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="createNewCustomer"/>
+          <include name="defineSuiteElements"/>
+        </methods>
+      </class> <!-- TestCases.TC02_AddAndRemoveRandomProducts -->
+    </classes>
+  </test> <!--  TC01 Verify Login Page Opened Successfully(failed) -->
+</suite> <!-- Failed suite [Guru99] -->

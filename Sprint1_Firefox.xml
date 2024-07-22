@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SWAGLABS">
+    <parameter name="browser" value="Firefox"/>
+
+    <test name="AddRandomProduct">
+        <classes>
+            <class name="TestCases.TC01_Login">
+                <methods>
+                    <include name="Login"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC02_AddAndRemoveRandomProducts">
+                <methods>
+                    <include name="AddRandomProducts"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC02_AddAndRemoveRandomProducts">
+                <methods>
+                    <include name="ClickCartButton"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC03_Checkout">
+                <methods>
+                    <include name="ClickCheckoutButton"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC04_FillCheckoutInformation">
+                <methods>
+                    <include name="FillInformation"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC04_FillCheckoutInformation">
+                <methods>
+                    <include name="ClickContinuebtn"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC05_CheckoutOverview">
+                <methods>
+                    <include name="CheckClickFinishbtn"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+    <parameter name="browser" value="Firefox"/>
+    <test name="RemoveRandomProducts">
+        <classes>
+            <class name="TestCases.TC01_Login">
+                <methods>
+                    <include name="Login"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC02_AddAndRemoveRandomProducts">
+                <methods>
+                    <include name="AddRandomProducts"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC02_AddAndRemoveRandomProducts">
+                <methods>
+                    <include name="RemoveRandomProducts"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC02_AddAndRemoveRandomProducts">
+                <methods>
+                    <include name="ClickCartButton"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC03_Checkout">
+                <methods>
+                    <include name="ClickCheckoutButton"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC04_FillCheckoutInformation">
+                <methods>
+                    <include name="FillInformation"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC04_FillCheckoutInformation">
+                <methods>
+                    <include name="ClickContinuebtn"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC05_CheckoutOverview">
+                <methods>
+                    <include name="CheckClickFinishbtn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
